@@ -36,10 +36,6 @@ public class LoginPageStepDefs {
         loginPage.Login(username,password);
 
     }
-
-
-
-
     @Then("the user should able to login the page")
     public void the_user_should_able_to_login_the_page() {
 
@@ -56,20 +52,14 @@ public class LoginPageStepDefs {
 //
 //        WebElement DropdownOption = Driver.get().findElement(By.xpath("//*[@id=\"popup-window-content-menu-popup-feed-add-post-form-popup\"]/div/div/span[2]/span[2]"));
 //        DropdownOption.click();
-        PortalPage portalPage=new PortalPage();
+        PortalPage portalPage = new PortalPage();
 
         portalPage.morebutton.click();
         BrowserUtils.waitFor(3);
         portalPage.appreciationButton.click();
 
-
-
     }
 
-
-    @Then("User should be able to click on the upload files icon to upload files and pictures from local disks.")
-    public void user_should_be_able_to_click_on_the_upload_files_icon_to_upload_files_and_pictures_from_local_disks() {
-            System.out.println("ksjdhfaksdjg");
 
     }
 
@@ -81,7 +71,13 @@ public class LoginPageStepDefs {
 
 
 
-}
+
+
+
+
+
+
+
 
 
 

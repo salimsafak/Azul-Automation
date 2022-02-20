@@ -21,6 +21,9 @@ public class PortalPage extends BasePage {
     @FindBy(id = "bx-b-uploadfile-blogPostForm")
     public WebElement uploadButton;
 
+    @FindBy(xpath = "//input[@name='bxu_files[]']")
+    public WebElement choosefile;
+
 
 
 
