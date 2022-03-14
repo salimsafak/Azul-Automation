@@ -41,7 +41,7 @@ public class LoginPageStepDefs {
 
         BrowserUtils.waitFor(3);
         String actualTitle = Driver.get().getTitle();
-        Assert.assertEquals("Portal", actualTitle);
+        Assert.assertEquals("(2) Portal", actualTitle);
 
     }
     @When("the user click the Appreciation button under the More tab on the Activity Stream")
